@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  /* --clr-one: rgb(255, 20, 147); */
+  /* --clr-two: rgb(127, 255, 0); */
+  --clr-two: rgb(255, 0, 0);
+
+  /* --clr-three: rgb(138, 43, 226); */
+  --clr-bg: #1d1e22;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: var(--clr-bg);
+  font-family: "Balsamiq Sans", cursive;
+  overflow: hidden;
+}
